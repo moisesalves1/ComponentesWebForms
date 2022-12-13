@@ -51,6 +51,15 @@ namespace waConhecendoOsComponentes
         protected global::System.Web.UI.WebControls.Button btInserir;
 
         /// <summary>
+        /// btSelecionar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btSelecionar;
+
+        /// <summary>
         /// dlSite control.
         /// </summary>
         /// <remarks>
@@ -58,5 +67,14 @@ namespace waConhecendoOsComponentes
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList dlSite;
+
+        /// <summary>
+        /// lbEndereco control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListBox lbEndereco;
     }
 }

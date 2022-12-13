@@ -30,6 +30,18 @@ namespace waConhecendoOsComponentes
             ListItem item = new ListItem(txtSite.Text, dlSite.Items.Count.ToString());
             dlSite.Items.Add(item);
             txtSite.Text = "";
+
+            item = new ListItem(txtEndereco.Text, lbEndereco.Items.Count.ToString());
+            lbEndereco.Items.Add(item);
+            txtEndereco.Text = "";
+        }
+
+        protected void btSelecionar_Click(object sender, EventArgs e)
+        {
+            ListItem item = dlSite.SelectedItem;
+            txtSite.Text = item.Text;
+            item = lbEndereco.SelectedItem;
+            txtEndereco.Text = item.Text;
         }
     }
 }

@@ -32,6 +32,7 @@
                     </td>
                     <td>
                         <asp:Button ID="btInserir" runat="server" Text="Inserir Site" OnClick="btInserir_Click" />
+                        <asp:Button ID="btSelecionar" runat="server" OnClick="btSelecionar_Click" Text="Selecionar" />
                     </td>
                 </tr>
                 <tr>
@@ -41,7 +42,11 @@
                             <asp:ListItem Value="2">Maju</asp:ListItem>
                         </asp:DropDownList>
                     </td>
-                    <td class="auto-style2">&nbsp;</td>
+                    <td class="auto-style2">
+                        <asp:ListBox ID="lbEndereco" runat="server" Width="277px">
+                            <asp:ListItem>http://www.google.com</asp:ListItem>
+                        </asp:ListBox>
+                    </td>
                     <td>&nbsp;</td>
                 </tr>
             </table>
